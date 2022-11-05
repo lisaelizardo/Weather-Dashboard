@@ -6,7 +6,6 @@
 }
 
 section.search {
-    background-color: blanchedalmond;
     text-align: center;
     padding: 4px;
 }
@@ -22,18 +21,24 @@ section.search {
 
 .row {
     display: flex;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 8px;
 }
 
 .box {
-    text-align: center;
+    text-align: left;
     border: solid;
     border-width: 2px;
 }
 
 .box1 {
     border: solid;
-    border-width: 1px;
-    text-align: center;
-    padding: 3px;
+    border-width: 3px;
+    text-align: left;
+    background-color: darkblue;
+    color: white;
 }
 
