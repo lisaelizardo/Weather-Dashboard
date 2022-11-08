@@ -32,6 +32,7 @@ section.search {
     text-align: left;
     border: solid;
     border-width: 2px;
+    list-style: none;
 }
 
 .box1 {
@@ -40,5 +41,6 @@ section.search {
     text-align: left;
     background-color: darkblue;
     color: white;
+    list-style: none;
 }
 
